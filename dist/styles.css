@@ -1,0 +1,95 @@
+body {
+  color: #e7e7e9;
+}
+
+a {
+  text-decoration: none;
+}
+
+section.section-divider {
+  margin-top: -0.5rem;
+}
+
+nav {
+  background-color: #11111f;
+  border-bottom: 1px solid #707079;
+  /* Fade out the second bar */
+  /* Rotate last bar */
+}
+nav .hamburger_menu {
+  gap: 5px;
+  border: none;
+  background-color: transparent;
+}
+nav .bar1,
+nav .bar2,
+nav .bar3 {
+  height: 3px;
+  background-color: #39ff14;
+  transition: 0.3s;
+  border-radius: 1rem;
+}
+nav .bar1,
+nav .bar3 {
+  width: 30px;
+}
+nav .bar2 {
+  width: 15px;
+}
+nav .change .bar1 {
+  transform: rotate(-45deg) translate(-4px, 3px);
+}
+nav .change .bar2 {
+  opacity: 0;
+}
+nav .change .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+nav .links {
+  display: none;
+  gap: 2rem;
+  padding: 0.75rem 0;
+}
+nav .links li {
+  text-align: right;
+}
+nav .links li a {
+  display: block;
+  text-transform: capitalize;
+  color: #e7e7e9;
+  width: 100%;
+  transition: all ease-out 0.3s;
+}
+nav .links li:hover a {
+  color: #7ef868;
+}
+nav .social-icons {
+  gap: 1rem;
+}
+nav .social-icons li a {
+  color: #b8b8bc;
+  font-size: 1.2rem;
+  transition: all ease-out 0.3s;
+}
+nav .social-icons li:hover a {
+  color: #39ff14;
+}
+
+header {
+  background-color: #11111f;
+  padding-bottom: 5rem;
+}
+header .container {
+  border-radius: 1rem;
+  background: #161629 url("/images/bg-pattern.svg") no-repeat center;
+  background-size: cover;
+}
+header .container img {
+  width: 75%;
+}
+
+@media screen and (min-width: 768px) {
+  header .container img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */

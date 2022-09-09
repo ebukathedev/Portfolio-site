@@ -1,0 +1,14 @@
+header {
+	background-color: $primary;
+	padding-bottom: 5rem;
+	.container {
+		border-radius: 1rem;
+		background: $light-primary url("/images/bg-pattern.svg") no-repeat
+			center;
+		background-size: cover;
+
+		img {
+			width: 75%;
+		}
+	}
+}
