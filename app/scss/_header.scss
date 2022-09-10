@@ -10,5 +10,14 @@ header {
 		img {
 			width: 75%;
 		}
+		
+		h1,h3 {
+			color: $white;
+		}
+
+		.job-title {
+			color: $accent;
+			font-variant: small-caps;
+		}
 	}
 }

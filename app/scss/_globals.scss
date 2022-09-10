@@ -1,5 +1,35 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat-Regular.otf.ttf") format("2tf");
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("ttf");
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
 body {
 	color: $light-gray;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Montserrat", sans-serif !important;
+}
+
+h1 {
+	font-weight: 700 !important;
+}
+
+h2,
+h3 {
+	font-weight: 400 !important;
 }
 
 a {
